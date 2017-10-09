@@ -26,8 +26,6 @@ $(document).ready(function(){
 
 	var songDiv = $('<div>');
 	songDiv.addClass('song-div');
-	var songOl = $('<ol>');
-	songOl.addClass('song-ol');
 	$(document).on('click', '#search-button', function(){
 		appendSongList(songDiv);
 	});
